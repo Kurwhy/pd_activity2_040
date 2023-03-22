@@ -44,3 +44,11 @@ int main() {
 			cin >> lebar;
 			cout << "Luas Persegipanjang = " << Luaspersegipanjang(panjang, lebar);
 			break;
+
+		case 2:
+			cout << "Masukkan alas : ";
+			cin >> alas;
+			cout << "Masukkan tinggi : ";
+			cin >> tinggi;
+			cout << "Luas Segitiga = " << Luassegitiga(alas, tinggi);
+			break;
